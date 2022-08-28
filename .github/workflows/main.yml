@@ -31,7 +31,7 @@ jobs:
 
 
       - name: Build maven project
-        run: mvn -B pacakge --file pom.xml
+        run: mvn -B package --file pom.xml
         
       - name: Inspect current directiory
         run: ls -a
